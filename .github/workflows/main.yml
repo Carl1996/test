@@ -1,13 +1,13 @@
 name: 'run test'
 
-on:
+#on:
   schedule:
     - cron: '0 12 * * *' #中午12:00执行，修改时注意时区
   watch:
     types: started
   workflow_dispatch:
 
-jobs:
+#jobs:
   run:
     runs-on: ubuntu-latest
     steps:
