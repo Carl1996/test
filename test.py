@@ -1,4 +1,7 @@
 # -*- coding: utf8 -*-
+import requests
+from requests import Session
+from time import sleep
 
 def send(message):
     api = "https://sctapi.ftqq.com/SCT35322TXSHWtkwibbhznT5DWWGq7SrR.send"
