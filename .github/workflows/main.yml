@@ -1,4 +1,4 @@
-name: 'run BiliExp'
+name: 'run test'
 
 on:
   schedule:
@@ -10,9 +10,8 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    if: github.repository != 'happy888888/BiliExp' || github.event_name == 'workflow_dispatch'
     steps:
     - uses: actions/checkout@v2
 
-    - name: 执行BiliExp
+    - name: 执行test
       run: bash ./run_test.sh
