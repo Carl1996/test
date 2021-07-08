@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #安装Actions需要的依赖库
-#sudo -H pip3 install --upgrade setuptools >/dev/null
+sudo -H pip3 install --upgrade setuptools >/dev/null
 #sudo -H pip3 install -r ./run_in_Actions/requirements.txt >/dev/null
 
 #将secrets映射到配置文件
